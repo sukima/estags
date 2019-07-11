@@ -1,0 +1,36 @@
+{
+  "name": "estags",
+  "version": "0.0.0",
+  "description": "ctags-like tag generator for ECMAScript",
+  "main": "index.js",
+  "bin": {
+    "estags": "./bin/estags"
+  },
+  "scripts": {
+    "lint:js": "eslint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sukima/estags.git"
+  },
+  "author": "Devin Weaver (@sukima) <suki@tritarget.org> (https://tritarget.org/)",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@babel/core": "^7.5.4",
+    "babylon-walker": "^0.0.1",
+    "common-tags": "^1.8.0",
+    "glob": "^7.1.4"
+  },
+  "engines": {
+    "node": ">=10.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^13.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
